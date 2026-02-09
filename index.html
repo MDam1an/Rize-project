@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIZE - Moda Atemporal | Drop 1.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">RI<span>ZE</span></a>
+            
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#valor" class="nav-link">Valor</a></li>
+                <li class="nav-item"><a href="#produto" class="nav-link">Drop 1.0</a></li>
+                <li class="nav-item"><a href="#lead" class="nav-link">Pré-lançamento</a></li>
+                <li class="nav-item cart-icon-container">
+                    <a href="#" class="nav-link" id="cart-toggle">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Carrinho Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+            <div class="empty-cart">
+                <i class="fas fa-shopping-bag"></i>
+                <p>Seu carrinho está vazio</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price" id="total-price">R$ 0,00</span>
+            </div>
+            <button class="btn checkout-btn" id="checkout-btn">Finalizar Pré-venda</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">DROP 1.0</div>
+                <h1 class="hero-title">Moda Atemporal para o Dia a Dia</h1>
+                <p class="hero-subtitle">A RIZE combina design minimalista, conforto excepcional e qualidade premium para criar peças versáteis que transcendem tendências passageiras.</p>
+                <a href="#produto" class="btn">Ver Drop 1.0</a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-placeholder">
+                    <div class="placeholder-image">
+                        Imagem de produto ou lifestyle
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta de Valor -->
+    <section class="section valor" id="valor">
+        <div class="container">
+            <h2 class="section-title">Por que escolher a RIZE?</h2>
+            <p class="valor-description">Criamos roupas que não apenas vestem, mas transformam. Cada peça é pensada para oferecer versatilidade, conforto e um design atemporal que permanece relevante ano após ano.</p>
+            
+            <div class="cards-container">
+                <div class="card fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3 class="card-title">Versatilidade</h3>
+                    <p class="card-text">Peças que se adaptam a qualquer ocasião, do trabalho ao lazer, criando múltiplos looks com o mínimo esforço.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="card-title">Conforto</h3>
+                    <p class="card-text">Tecidos premium e cortes inteligentes que garantem conforto durante todo o dia, sem abrir mão do estilo.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3 class="card-title">Design Atemporal</h3>
+                    <p class="card-text">Criamos peças que transcendem tendências passageiras, focando em um estilo que permanece elegante por anos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produto / Drop 1.0 -->
+    <section class="section produto" id="produto">
+        <div class="container produto-container">
+            <div class="drop-badge">
+                <span class="drop-tag">DROP 1.0</span>
+                <h2 class="section-title">Camiseta Essential</h2>
+                <p class="drop-description">Nosso primeiro lançamento. Uma camiseta essencial que combina conforto, durabilidade e design atemporal.</p>
+            </div>
+            
+            <div class="produto-details">
+                <div class="produto-images fade-in">
+                    <div class="main-image">
+                        <div class="placeholder-image">
+                            Imagem frontal da camiseta
+                        </div>
+                    </div>
+                    <div class="thumbnail-images">
+                        <div class="thumbnail active">
+                            <div class="placeholder-thumbnail">
+                                Frente
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <div class="placeholder-thumbnail">
+                                Costas
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <div class="placeholder-thumbnail">
+                                Detalhe
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="produto-info fade-in">
+                    <div class="price-container">
+                        <span class="price">R$ 89,90</span>
+                        <span class="original-price">R$ 129,90</span>
+                        <span class="discount">-30%</span>
+                    </div>
+                    
+                    <p class="produto-description">
+                        Camiseta em algodão 100% penteado, com costura reforçada, gola canelada e caimento moderno. Disponível em cores essenciais e tamanhos do P ao GG.
+                    </p>
+                    
+                    <div class="customization-form" id="customization-form">
+                        <div class="form-group">
+                            <label for="color">Cor</label>
+                            <div class="color-options">
+                                <div class="color-option active" data-color="preto" style="background-color: #1a1a1a;">
+                                    <span class="color-name">Preto</span>
+                                </div>
+                                <div class="color-option" data-color="branco" style="background-color: #ffffff; border: 1px solid #ddd;">
+                                    <span class="color-name">Branco</span>
+                                </div>
+                                <div class="color-option" data-color="cinza" style="background-color: #808080;">
+                                    <span class="color-name">Cinza</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="size">Tamanho</label>
+                            <div class="size-options">
+                                <div class="size-option" data-size="P">P</div>
+                                <div class="size-option active" data-size="M">M</div>
+                                <div class="size-option" data-size="G">G</div>
+                                <div class="size-option" data-size="GG">GG</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="quantity">Quantidade</label>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="10">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        
+                        <button class="btn add-to-cart-btn" id="add-to-cart">
+                            <i class="fas fa-shopping-bag"></i>
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="produto-phrase fade-in">Menos é mais. Simplicidade é sofisticação. Essência é tudo.</p>
+        </div>
+    </section>
+
+    <!-- Pré-lançamento + Lead Capture -->
+    <section class="section lead" id="lead">
+        <div class="container">
+            <h2 class="section-title lead-title">Seja o primeiro a saber dos próximos drops</h2>
+            <p class="lead-description">Cadastre-se para receber acesso antecipado, descontos exclusivos e ser notificado sobre nossos próximos lançamentos.</p>
+            
+            <form class="lead-form" id="lead-form">
+                <div class="form-group">
+                    <input type="email" class="email-input" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn">Quero ser avisado</button>
+                </div>
+                <p class="form-notice">Não compartilhamos seus dados. Você pode cancelar a qualquer momento.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Formulário de Finalização de Compra (Modal) -->
+    <div class="checkout-modal" id="checkout-modal">
+        <div class="checkout-content">
+            <div class="checkout-header">
+                <h2>Finalizar Pré-venda</h2>
+                <button class="close-checkout" id="close-checkout">&times;</button>
+            </div>
+            
+            <form class="checkout-form" id="checkout-form">
+                <div class="checkout-section">
+                    <h3>Informações Pessoais</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Nome Completo *</label>
+                            <input type="text" id="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefone/WhatsApp *</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpf">CPF *</label>
+                            <input type="text" id="cpf" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="checkout-section">
+                    <h3>Endereço de Entrega</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="cep">CEP *</label>
+                            <input type="text" id="cep" required maxlength="9">
+                            <small class="cep-hint">Digite 88730-000 para São Ludgero</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="street">Rua *</label>
+                            <input type="text" id="street" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Número *</label>
+                            <input type="text" id="number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complement">Complemento</label>
+                            <input type="text" id="complement">
+                        </div>
+                        <div class="form-group">
+                            <label for="neighborhood">Bairro *</label>
+                            <input type="text" id="neighborhood" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Cidade *</label>
+                            <input type="text" id="city" required readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">Estado *</label>
+                            <input type="text" id="state" required readonly>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="checkout-section">
+                    <h3>Resumo do Pedido</h3>
+                    <div class="order-summary" id="order-summary">
+                        <!-- Resumo do pedido será inserido aqui -->
+                    </div>
+                    <div class="shipping-info">
+                        <div class="shipping-row">
+                            <span>Subtotal:</span>
+                            <span id="order-subtotal">R$ 0,00</span>
+                        </div>
+                        <div class="shipping-row">
+                            <span>Frete:</span>
+                            <span id="shipping-cost">R$ 10,00</span>
+                        </div>
+                        <div class="shipping-row total">
+                            <span>Total:</span>
+                            <span id="order-total">R$ 0,00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="checkout-section">
+                    <h3>Observações</h3>
+                    <div class="form-group">
+                        <label for="notes">Alguma observação sobre o pedido?</label>
+                        <textarea id="notes" rows="3"></textarea>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn submit-order-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    Finalizar via WhatsApp
+                </button>
+                <p class="checkout-notice">Ao finalizar, você será redirecionado para o WhatsApp para confirmar seu pedido.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Prova Social -->
+    <section class="confianca" id="confianca">
+        <div class="container">
+            <p class="confianca-phrase fade-in">Marca independente. Produção limitada. Qualidade inegociável.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <a href="#" class="footer-logo">RI<span>ZE</span></a>
+            
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="E-mail">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 RIZE. Todos os direitos reservados. | Drop 1.0 - Edição Limitada</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
